@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "RKuUZ7JhMC0tcd1KmLTk6lCIv/Er/4nlrd1/ngWklac=",
+  "Source": "Microservices.Order",
+  "BasePath": "_content/Microservices.Order",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

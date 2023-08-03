@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "CyHIFMwNj9U0VQlWRpLVZQcYEnTgRFS7Rh3J7nPuj0M=",
+  "Source": "Microservices.Payment",
+  "BasePath": "_content/Microservices.Payment",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

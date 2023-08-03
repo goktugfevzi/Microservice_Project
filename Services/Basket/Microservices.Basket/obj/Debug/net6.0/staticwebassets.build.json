@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "pMs8S5qZpt2DowhmFs23hR+KgTXE/CwfhM1WN6UNeDk=",
+  "Source": "Microservices.Basket",
+  "BasePath": "_content/Microservices.Basket",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

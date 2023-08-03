@@ -1,0 +1,12 @@
+C:\Users\esesl\source\repos\MicroServices\Shared\MicroServices.Shared\bin\Debug\net6.0\MicroServices.Shared.deps.json
+C:\Users\esesl\source\repos\MicroServices\Shared\MicroServices.Shared\bin\Debug\net6.0\MicroServices.Shared.dll
+C:\Users\esesl\source\repos\MicroServices\Shared\MicroServices.Shared\bin\Debug\net6.0\MicroServices.Shared.pdb
+C:\Users\esesl\source\repos\MicroServices\Shared\MicroServices.Shared\obj\Debug\net6.0\MicroServices.Shared.csproj.AssemblyReference.cache
+C:\Users\esesl\source\repos\MicroServices\Shared\MicroServices.Shared\obj\Debug\net6.0\MicroServices.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\esesl\source\repos\MicroServices\Shared\MicroServices.Shared\obj\Debug\net6.0\MicroServices.Shared.AssemblyInfoInputs.cache
+C:\Users\esesl\source\repos\MicroServices\Shared\MicroServices.Shared\obj\Debug\net6.0\MicroServices.Shared.AssemblyInfo.cs
+C:\Users\esesl\source\repos\MicroServices\Shared\MicroServices.Shared\obj\Debug\net6.0\MicroServices.Shared.csproj.CoreCompileInputs.cache
+C:\Users\esesl\source\repos\MicroServices\Shared\MicroServices.Shared\obj\Debug\net6.0\MicroServices.Shared.dll
+C:\Users\esesl\source\repos\MicroServices\Shared\MicroServices.Shared\obj\Debug\net6.0\refint\MicroServices.Shared.dll
+C:\Users\esesl\source\repos\MicroServices\Shared\MicroServices.Shared\obj\Debug\net6.0\MicroServices.Shared.pdb
+C:\Users\esesl\source\repos\MicroServices\Shared\MicroServices.Shared\obj\Debug\net6.0\ref\MicroServices.Shared.dll

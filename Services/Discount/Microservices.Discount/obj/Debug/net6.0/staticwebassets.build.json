@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "GXW7NR6wImDKlzo3at1Ye1Q5WbgGo+fw0GWcT1cuSK8=",
+  "Source": "Microservices.Discount",
+  "BasePath": "_content/Microservices.Discount",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
