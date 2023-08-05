@@ -35,7 +35,8 @@ namespace Microservices.Catalog.Services.ProductServices
 
         public async Task<Response<NoContent>> DeleteProductAsync(string id)
         {
-            var value = await _productCollection.DeleteOneAsync(id);
+            var value = await _productCollection.DeleteOneAsync(x => x.ProductID == id);
+
             if (value.DeletedCount > 0)
             {
                 return Response<NoContent>.Success(204);

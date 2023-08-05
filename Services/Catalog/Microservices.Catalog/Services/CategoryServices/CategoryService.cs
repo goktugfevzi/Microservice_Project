@@ -14,10 +14,10 @@ namespace Microservices.Catalog.Services.CategoryServices
 
         public CategoryService(IMapper mapper, IDatabaseSettings _databaseSettings)
         {
-            _mapper = mapper;
             var client = new MongoClient(_databaseSettings.ConnectionString);
             var database = client.GetDatabase(_databaseSettings.DatabaseName);
             _categoryCollection = database.GetCollection<Category>(_databaseSettings.CategoryCollectionName);
+            _mapper = mapper;
         }
 
         public async Task<Response<CreateCategoryDto>> CreateCategoryAsync(CreateCategoryDto createCategoryDto)
@@ -29,7 +29,7 @@ namespace Microservices.Catalog.Services.CategoryServices
 
         public async Task<Response<NoContent>> DeleteCategoryAsync(string id)
         {
-            var value = await _categoryCollection.DeleteOneAsync(id);
+            var value = await _categoryCollection.DeleteOneAsync(x => x.CategoryID == id);
             if (value.DeletedCount > 0)
             {
                 return Response<NoContent>.Success(204);
