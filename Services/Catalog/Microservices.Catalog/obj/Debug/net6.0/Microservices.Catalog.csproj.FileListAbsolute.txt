@@ -47,3 +47,10 @@ C:\Users\esesl\source\repos\MicroServices\Services\Catalog\Microservices.Catalog
 C:\Users\esesl\source\repos\MicroServices\Services\Catalog\Microservices.Catalog\obj\Debug\net6.0\Microservices.Catalog.pdb
 C:\Users\esesl\source\repos\MicroServices\Services\Catalog\Microservices.Catalog\obj\Debug\net6.0\Microservices.Catalog.genruntimeconfig.cache
 C:\Users\esesl\source\repos\MicroServices\Services\Catalog\Microservices.Catalog\obj\Debug\net6.0\ref\Microservices.Catalog.dll
+C:\Users\esesl\source\repos\MicroServices\Services\Catalog\Microservices.Catalog\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\esesl\source\repos\MicroServices\Services\Catalog\Microservices.Catalog\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\esesl\source\repos\MicroServices\Services\Catalog\Microservices.Catalog\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\esesl\source\repos\MicroServices\Services\Catalog\Microservices.Catalog\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\esesl\source\repos\MicroServices\Services\Catalog\Microservices.Catalog\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\esesl\source\repos\MicroServices\Services\Catalog\Microservices.Catalog\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\esesl\source\repos\MicroServices\Services\Catalog\Microservices.Catalog\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
