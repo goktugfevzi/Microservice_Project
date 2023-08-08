@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = MicroService.IdentityServer
+build_property.ProjectDir = C:\Users\esesl\source\repos\MicroService\IdentityServer\MicroService.IdentityServer\

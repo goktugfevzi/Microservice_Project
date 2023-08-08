@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "KUoVwL4lE4GPR7BC3NlWw63wlEo5SvMVOj9wZyyG8xk=",
+  "Source": "MicroService.Services.Catalog",
+  "BasePath": "_content/MicroService.Services.Catalog",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
