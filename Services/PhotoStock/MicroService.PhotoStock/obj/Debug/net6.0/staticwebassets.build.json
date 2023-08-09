@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "3xUkYOjRWJxwjgWdgJSOJY2H3Tg6V/FUjVExKyPGunw=",
+  "Source": "MicroService.PhotoStock",
+  "BasePath": "_content/MicroService.PhotoStock",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MicroService.PhotoStock\\wwwroot",
+      "Source": "MicroService.PhotoStock",
+      "ContentRoot": "C:\\Users\\esesl\\source\\repos\\MicroService\\Services\\PhotoStock\\MicroService.PhotoStock\\wwwroot\\",
+      "BasePath": "_content/MicroService.PhotoStock",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
