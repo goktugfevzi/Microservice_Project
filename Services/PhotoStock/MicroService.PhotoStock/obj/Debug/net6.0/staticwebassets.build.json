@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3xUkYOjRWJxwjgWdgJSOJY2H3Tg6V/FUjVExKyPGunw=",
+  "Hash": "YN9EjZ6mpBveFnAqAVZg6g9hn7enk40EUWF1daaqWjU=",
   "Source": "MicroService.PhotoStock",
   "BasePath": "_content/MicroService.PhotoStock",
   "Mode": "Default",
@@ -15,5 +15,23 @@
       "Pattern": "**"
     }
   ],
-  "Assets": []
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\esesl\\source\\repos\\MicroService\\Services\\PhotoStock\\MicroService.PhotoStock\\wwwroot\\photos\\formFile",
+      "SourceId": "MicroService.PhotoStock",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\esesl\\source\\repos\\MicroService\\Services\\PhotoStock\\MicroService.PhotoStock\\wwwroot\\",
+      "BasePath": "_content/MicroService.PhotoStock",
+      "RelativePath": "photos/formFile",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\photos\\formFile"
+    }
+  ]
 }
