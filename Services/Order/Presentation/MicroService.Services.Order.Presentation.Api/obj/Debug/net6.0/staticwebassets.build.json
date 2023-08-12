@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "TIbWye5peJYYIsfaC7WKLYwh2qD6I173qdZqjJMDBqo=",
+  "Source": "MicroService.Services.Order.Presentation.Api",
+  "BasePath": "_content/MicroService.Services.Order.Presentation.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

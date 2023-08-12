@@ -1,0 +1,15 @@
+C:\Users\esesl\source\repos\MicroService\Services\Order\Core\MicroService.Services.Order.Core.Application\bin\Debug\net6.0\MicroService.Services.Order.Core.Application.deps.json
+C:\Users\esesl\source\repos\MicroService\Services\Order\Core\MicroService.Services.Order.Core.Application\bin\Debug\net6.0\MicroService.Services.Order.Core.Application.dll
+C:\Users\esesl\source\repos\MicroService\Services\Order\Core\MicroService.Services.Order.Core.Application\bin\Debug\net6.0\MicroService.Services.Order.Core.Application.pdb
+C:\Users\esesl\source\repos\MicroService\Services\Order\Core\MicroService.Services.Order.Core.Application\bin\Debug\net6.0\MicroService.Services.Order.Core.Domain.dll
+C:\Users\esesl\source\repos\MicroService\Services\Order\Core\MicroService.Services.Order.Core.Application\bin\Debug\net6.0\MicroService.Services.Order.Core.Domain.pdb
+C:\Users\esesl\source\repos\MicroService\Services\Order\Core\MicroService.Services.Order.Core.Application\obj\Debug\net6.0\MicroService.Services.Order.Core.Application.csproj.AssemblyReference.cache
+C:\Users\esesl\source\repos\MicroService\Services\Order\Core\MicroService.Services.Order.Core.Application\obj\Debug\net6.0\MicroService.Services.Order.Core.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\esesl\source\repos\MicroService\Services\Order\Core\MicroService.Services.Order.Core.Application\obj\Debug\net6.0\MicroService.Services.Order.Core.Application.AssemblyInfoInputs.cache
+C:\Users\esesl\source\repos\MicroService\Services\Order\Core\MicroService.Services.Order.Core.Application\obj\Debug\net6.0\MicroService.Services.Order.Core.Application.AssemblyInfo.cs
+C:\Users\esesl\source\repos\MicroService\Services\Order\Core\MicroService.Services.Order.Core.Application\obj\Debug\net6.0\MicroService.Services.Order.Core.Application.csproj.CoreCompileInputs.cache
+C:\Users\esesl\source\repos\MicroService\Services\Order\Core\MicroService.Services.Order.Core.Application\obj\Debug\net6.0\MicroService.Services.Order.Core.Application.csproj.CopyComplete
+C:\Users\esesl\source\repos\MicroService\Services\Order\Core\MicroService.Services.Order.Core.Application\obj\Debug\net6.0\MicroService.Services.Order.Core.Application.dll
+C:\Users\esesl\source\repos\MicroService\Services\Order\Core\MicroService.Services.Order.Core.Application\obj\Debug\net6.0\refint\MicroService.Services.Order.Core.Application.dll
+C:\Users\esesl\source\repos\MicroService\Services\Order\Core\MicroService.Services.Order.Core.Application\obj\Debug\net6.0\MicroService.Services.Order.Core.Application.pdb
+C:\Users\esesl\source\repos\MicroService\Services\Order\Core\MicroService.Services.Order.Core.Application\obj\Debug\net6.0\ref\MicroService.Services.Order.Core.Application.dll
