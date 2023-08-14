@@ -16,6 +16,5 @@ namespace MicroService.Services.Order.Core.Application.Features.CQRS.Commands
         public string UserID { get; set; }
         public decimal TotalPrice { get; set; }
         public DateTime OrderingDate { get; set; }
-        public List<OrderDetail> OrderDetails { get; set; }
     }
 }

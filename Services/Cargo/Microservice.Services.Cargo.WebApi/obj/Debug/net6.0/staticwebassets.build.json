@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "TJjq028S6qc8bz5FfkjWHBBliBppY13nlApZV1X9sbY=",
+  "Source": "Microservice.Services.Cargo.WebApi",
+  "BasePath": "_content/Microservice.Services.Cargo.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,12 @@
+C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Cargo.BusinessLayer\bin\Debug\net6.0\Microservice.Services.Cargo.BusinessLayer.deps.json
+C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Cargo.BusinessLayer\bin\Debug\net6.0\Microservice.Services.Cargo.BusinessLayer.dll
+C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Cargo.BusinessLayer\bin\Debug\net6.0\Microservice.Services.Cargo.BusinessLayer.pdb
+C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Cargo.BusinessLayer\obj\Debug\net6.0\Microservice.Services.Cargo.BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Cargo.BusinessLayer\obj\Debug\net6.0\Microservice.Services.Cargo.BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Cargo.BusinessLayer\obj\Debug\net6.0\Microservice.Services.Cargo.BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Cargo.BusinessLayer\obj\Debug\net6.0\Microservice.Services.Cargo.BusinessLayer.AssemblyInfo.cs
+C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Cargo.BusinessLayer\obj\Debug\net6.0\Microservice.Services.Cargo.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Cargo.BusinessLayer\obj\Debug\net6.0\Microservice.Services.Cargo.BusinessLayer.dll
+C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Cargo.BusinessLayer\obj\Debug\net6.0\refint\Microservice.Services.Cargo.BusinessLayer.dll
+C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Cargo.BusinessLayer\obj\Debug\net6.0\Microservice.Services.Cargo.BusinessLayer.pdb
+C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Cargo.BusinessLayer\obj\Debug\net6.0\ref\Microservice.Services.Cargo.BusinessLayer.dll

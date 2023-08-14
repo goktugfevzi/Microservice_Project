@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using MediatR;
 using MicroService.Services.Order.Core.Application.Interfaces;
-using MicroService.Services.Ordering.Core.Application.Dtos.OrderDtos;
+using MicroService.Services.Order.Core.Application.Dtos.OrderDtos;
 using MicroService.Services.Order.Core.Application.Dtos;
 using MicroService.Services.Order.Core.Application.Features.CQRS.Queries;
 using System;
@@ -15,10 +15,10 @@ namespace MicroService.Services.Order.Core.Application.Features.CQRS.Handlers
 {
     public class GetAllOrderingQueryHandler : IRequestHandler<GetAllOrderingQueryRequest, List<ResultOrderingDto>>
     {
-        private readonly IRepository<Ordering1> _repository;
+        private readonly IRepository<Ordering> _repository;
         private readonly IMapper _mapper;
 
-        public GetAllOrderingQueryHandler(IRepository<Ordering1> repository, IMapper mapper)
+        public GetAllOrderingQueryHandler(IRepository<Ordering> repository, IMapper mapper)
         {
             _repository = repository;
             _mapper = mapper;

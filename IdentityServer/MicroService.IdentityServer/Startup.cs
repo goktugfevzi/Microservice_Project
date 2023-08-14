@@ -3,6 +3,7 @@
 
 
 using IdentityServer4;
+using Microservice.IdentityServer;
 using MicroService.IdentityServer.Data;
 using MicroService.IdentityServer.Models;
 using Microsoft.AspNetCore.Builder;

@@ -1,5 +1,6 @@
 ﻿using MediatR;
-using MicroService.Services.Ordering.Core.Application.Dtos.OrderDtos;
+using MicroService.Services.Order.Core.Application.Dtos.OrderDetailDtos;
+using MicroService.Services.Order.Core.Application.Dtos.OrderDtos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace MicroService.Services.Order.Core.Application.Features.CQRS.Queries
 {
-    public class GetAllOrderDetailQueryRequest : IRequest<List<ResultOrderingDto>>
+    public class GetAllOrderDetailQueryRequest : IRequest<List<ResultOrderDetailDto>>
     {
 
     }

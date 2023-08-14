@@ -13,9 +13,9 @@ namespace MicroService.Services.Order.Core.Application.Features.CQRS.Commands
 {
     public class RemoveOrderingCommandRequest : IRequest
     {
-        public RemoveOrderingCommandRequest(int ıd)
+        public RemoveOrderingCommandRequest(int id)
         {
-            Id = ıd;
+            Id = id;
         }
 
         public int Id { get; set; }

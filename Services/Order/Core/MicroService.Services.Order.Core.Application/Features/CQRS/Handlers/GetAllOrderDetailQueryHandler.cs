@@ -1,32 +1,34 @@
 ﻿using AutoMapper;
 using MediatR;
-using MicroService.Services.Order.Core.Application.Features.CQRS.Queries;
 using MicroService.Services.Order.Core.Application.Interfaces;
-using MicroService.Services.Order.Core.Domain.Entities;
-using MicroService.Services.Ordering.Core.Application.Dtos.OrderDtos;
+using MicroService.Services.Order.Core.Application.Dtos.OrderDtos;
+using MicroService.Services.Order.Core.Application.Dtos;
+using MicroService.Services.Order.Core.Application.Features.CQRS.Queries;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MicroService.Services.Order.Core.Domain.Entities;
+using MicroService.Services.Order.Core.Application.Dtos.OrderDetailDtos;
 
-namespace Casgem.MicroService.Services.Orde.Core.Application.Features.CQRS.Handlers
+namespace MicroService.Services.Order.Core.Application.Features.CQRS.Handlers
 {
-    public class GetAllOrderingQueryHandler : IRequestHandler<GetAllOrderingQueryRequest, List<ResultOrderingDto>>
+    public class GetAllOrderDetailQueryHandler : IRequestHandler<GetAllOrderDetailQueryRequest, List<ResultOrderDetailDto>>
     {
-        private readonly IRepository<Ordering> _repository;
+        private readonly IRepository<OrderDetail> _repository;
+        private readonly IMapper _mapper;
 
-        public GetAllOrderingQueryHandler(IRepository<Ordering> repository, IMapper mapper)
+        public GetAllOrderDetailQueryHandler(IRepository<OrderDetail> repository, IMapper mapper)
         {
             _repository = repository;
             _mapper = mapper;
         }
 
-        private readonly IMapper _mapper;
-        public async Task<List<ResultOrderingDto>> Handle(GetAllOrderingQueryRequest request, CancellationToken cancellationToken)
+        public async Task<List<ResultOrderDetailDto>> Handle(GetAllOrderDetailQueryRequest request, CancellationToken cancellationToken)
         {
             var values = await _repository.GetAllAsync();
-            return _mapper.Map<List<ResultOrderingDto>>(values);
+            return _mapper.Map<List<ResultOrderDetailDto>>(values);
         }
     }
 }

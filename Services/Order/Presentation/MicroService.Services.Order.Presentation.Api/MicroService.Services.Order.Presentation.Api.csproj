@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.1.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.21">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -19,6 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\IdentityServer\MicroService.IdentityServer\MicroService.IdentityServer.csproj" />
     <ProjectReference Include="..\..\Infrastructure\MicroService.Services.Order.Infrastructure.Persistance\MicroService.Services.Order.Infrastructure.Persistance.csproj" />
   </ItemGroup>
 

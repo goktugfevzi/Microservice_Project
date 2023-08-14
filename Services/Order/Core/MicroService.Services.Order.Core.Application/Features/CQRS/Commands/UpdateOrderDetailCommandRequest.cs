@@ -19,6 +19,5 @@ namespace MicroService.Services.Order.Core.Application.Features.CQRS.Commands
         public string ProductPrice { get; set; }
         public int ProductAmount { get; set; }
         public int OrderingID { get; set; }
-        public Ordering Ordering { get; set; }
     }
 }

@@ -17,5 +17,7 @@ namespace MicroService.Services.Order.Infrastructure.Persistance.Context
 
 
         public DbSet<Ordering> Orders { get; set; }
+        public DbSet<OrderDetail> OrderDetails { get; set; }
+        public DbSet<Address> Addresses { get; set; }
     }
 }

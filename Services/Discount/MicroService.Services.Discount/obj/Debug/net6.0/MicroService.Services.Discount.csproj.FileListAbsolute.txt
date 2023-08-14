@@ -5,6 +5,8 @@ C:\Users\esesl\source\repos\MicroService\Services\Discount\MicroService.Services
 C:\Users\esesl\source\repos\MicroService\Services\Discount\MicroService.Services.Discount\bin\Debug\net6.0\MicroService.Services.Discount.runtimeconfig.json
 C:\Users\esesl\source\repos\MicroService\Services\Discount\MicroService.Services.Discount\bin\Debug\net6.0\MicroService.Services.Discount.dll
 C:\Users\esesl\source\repos\MicroService\Services\Discount\MicroService.Services.Discount\bin\Debug\net6.0\MicroService.Services.Discount.pdb
+C:\Users\esesl\source\repos\MicroService\Services\Discount\MicroService.Services.Discount\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\esesl\source\repos\MicroService\Services\Discount\MicroService.Services.Discount\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\esesl\source\repos\MicroService\Services\Discount\MicroService.Services.Discount\bin\Debug\net6.0\Dapper.dll
 C:\Users\esesl\source\repos\MicroService\Services\Discount\MicroService.Services.Discount\bin\Debug\net6.0\Humanizer.dll
 C:\Users\esesl\source\repos\MicroService\Services\Discount\MicroService.Services.Discount\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
@@ -70,5 +72,3 @@ C:\Users\esesl\source\repos\MicroService\Services\Discount\MicroService.Services
 C:\Users\esesl\source\repos\MicroService\Services\Discount\MicroService.Services.Discount\obj\Debug\net6.0\MicroService.Services.Discount.pdb
 C:\Users\esesl\source\repos\MicroService\Services\Discount\MicroService.Services.Discount\obj\Debug\net6.0\MicroService.Services.Discount.genruntimeconfig.cache
 C:\Users\esesl\source\repos\MicroService\Services\Discount\MicroService.Services.Discount\obj\Debug\net6.0\ref\MicroService.Services.Discount.dll
-C:\Users\esesl\source\repos\MicroService\Services\Discount\MicroService.Services.Discount\bin\Debug\net6.0\AutoMapper.dll
-C:\Users\esesl\source\repos\MicroService\Services\Discount\MicroService.Services.Discount\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

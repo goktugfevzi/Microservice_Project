@@ -22,6 +22,35 @@ namespace MicroService.Services.Order.Infrastructure.Persistance.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
+            modelBuilder.Entity("MicroService.Services.Order.Core.Domain.Entities.Address", b =>
+                {
+                    b.Property<int>("AddressID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AddressID"), 1L, 1);
+
+                    b.Property<string>("City")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Detail")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("District")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserID")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("AddressID");
+
+                    b.ToTable("Addresses");
+                });
+
             modelBuilder.Entity("MicroService.Services.Order.Core.Domain.Entities.OrderDetail", b =>
                 {
                     b.Property<int>("OrderDetailID")
@@ -30,7 +59,7 @@ namespace MicroService.Services.Order.Infrastructure.Persistance.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("OrderDetailID"), 1L, 1);
 
-                    b.Property<int>("OrderID")
+                    b.Property<int>("OrderingID")
                         .HasColumnType("int");
 
                     b.Property<int>("ProductAmount")
@@ -50,9 +79,9 @@ namespace MicroService.Services.Order.Infrastructure.Persistance.Migrations
 
                     b.HasKey("OrderDetailID");
 
-                    b.HasIndex("OrderID");
+                    b.HasIndex("OrderingID");
 
-                    b.ToTable("OrderDetail");
+                    b.ToTable("OrderDetails");
                 });
 
             modelBuilder.Entity("MicroService.Services.Order.Core.Domain.Entities.Ordering", b =>
@@ -63,7 +92,7 @@ namespace MicroService.Services.Order.Infrastructure.Persistance.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("OrderingID"), 1L, 1);
 
-                    b.Property<DateTime>("OrderDate")
+                    b.Property<DateTime>("OrderingDate")
                         .HasColumnType("datetime2");
 
                     b.Property<decimal>("TotalPrice")
@@ -80,13 +109,13 @@ namespace MicroService.Services.Order.Infrastructure.Persistance.Migrations
 
             modelBuilder.Entity("MicroService.Services.Order.Core.Domain.Entities.OrderDetail", b =>
                 {
-                    b.HasOne("MicroService.Services.Order.Core.Domain.Entities.Ordering", "Order")
+                    b.HasOne("MicroService.Services.Order.Core.Domain.Entities.Ordering", "Ordering")
                         .WithMany("OrderDetails")
-                        .HasForeignKey("OrderID")
+                        .HasForeignKey("OrderingID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Order");
+                    b.Navigation("Ordering");
                 });
 
             modelBuilder.Entity("MicroService.Services.Order.Core.Domain.Entities.Ordering", b =>

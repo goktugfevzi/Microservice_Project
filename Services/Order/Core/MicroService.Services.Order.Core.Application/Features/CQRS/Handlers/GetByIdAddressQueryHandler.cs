@@ -10,7 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Casgem.MicroService.Services.Orde.Core.Application.Features.CQRS.Handlers
+namespace MicroService.Services.Orde.Core.Application.Features.CQRS.Handlers
 {
     public class GetByIdAddressQueryHandler : IRequestHandler<GetByIdAddressQueryRequest, ResultAddressDto>
     {

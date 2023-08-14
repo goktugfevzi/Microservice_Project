@@ -14,18 +14,17 @@ namespace MicroService.Services.Order.Core.Application.Features.CQRS.Handlers
 {
     public class CreateOrderingCommandHandler : IRequestHandler<CreateOrderingCommandRequest>
     {
-        private readonly IRepository<Ordering1> _repository;
+        private readonly IRepository<Ordering> _repository;
 
-        public CreateOrderingCommandHandler(IRepository<Ordering1> repository)
+        public CreateOrderingCommandHandler(IRepository<Ordering> repository)
         {
             _repository = repository;
         }
 
         public Task Handle(CreateOrderingCommandRequest request, CancellationToken cancellationToken)
         {
-            var value = new Ordering1
+            var value = new Ordering
             {
-
                 TotalPrice = request.TotalPrice,
                 OrderingDate = Convert.ToDateTime(DateTime.Now.ToShortDateString()),
                 UserID = request.UserID

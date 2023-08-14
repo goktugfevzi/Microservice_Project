@@ -6,35 +6,39 @@ using IdentityServer4;
 using IdentityServer4.Models;
 using System.Collections.Generic;
 
-namespace MicroService.IdentityServer
+namespace Microservice.IdentityServer
 {
     public static class Config
     {
         public static IEnumerable<ApiResource> ApiResources => new ApiResource[]
         {
-            new ApiResource("resource_catalog"){Scopes={"catalog_fullpermission"}},
-            new ApiResource("resource_photostock"){Scopes={"photostock_fullpermission"}},
-            new ApiResource("resource_basket"){Scopes={"basket_fullpermission"}},
-            new ApiResource("resource_discount"){Scopes={"discount_fullpermission"}},
-                new ApiResource(IdentityServerConstants.LocalApi.ScopeName)
+            new ApiResource("resource_catalog"){Scopes={"catalog_fullpermission"} },
+            new ApiResource("resource_photostock"){Scopes={"photostock_fullpermission"} },
+             new ApiResource("resource_basket"){Scopes={"basket_fullpermission"} },
+             new ApiResource("resource_discount"){Scopes={"discount_fullpermission"} },
+             new ApiResource("resource_order"){Scopes={"order_fullpermission"} },
+
+               new ApiResource(IdentityServerConstants.LocalApi.ScopeName)
 
         };
+
         public static IEnumerable<IdentityResource> IdentityResources =>
                    new IdentityResource[]
                    {
                 new IdentityResources.OpenId(),
                 new IdentityResources.Profile(),
-                new IdentityResources.Email()
+                 new IdentityResources.Email()
                    };
 
         public static IEnumerable<ApiScope> ApiScopes =>
             new ApiScope[]
             {
-               new ApiScope("catalog_fullpermission","Ürün Listesi İçin Tam Erişim"),
-               new ApiScope("photostock_fullpermission","Fotoğraf Stoğu İçin Tam Erişim"),
-               new ApiScope("basket_fullpermission","Sepet İçin Tam Erişim"),
-               new ApiScope("discount_fullpermission","İndirim İçin Tam Erişim"),
-               new ApiScope(IdentityServerConstants.LocalApi.ScopeName)
+                  new ApiScope("catalog_fullpermission","Ürün Listesi İçin tam erişim"),
+                    new ApiScope("photostock_fullpermission","Fotograf İşlemleri  için Tam erişim"),
+                      new ApiScope("basket_fullpermission","Sepet  İşlemleri  için Tam erişim"),
+                      new ApiScope("discount_fullpermission","indirim  İşlemleri  için Tam erişim"),
+                         new ApiScope("order_fullpermission","Siparis  İşlemleri  için Tam erişim"),
+                  new ApiScope(IdentityServerConstants.LocalApi.ScopeName)
             };
 
         public static IEnumerable<Client> Clients =>
@@ -43,30 +47,32 @@ namespace MicroService.IdentityServer
                 // m2m client credentials flow client
                 new Client
                 {
+                    //üye olmayan kullanıcı
                     ClientId = "Casgem1Client",
                     ClientName = "Casgem Client Name",
+
                     AllowedGrantTypes = GrantTypes.ClientCredentials,
                     ClientSecrets = { new Secret("secret".Sha256()) },
-                    AllowedScopes = { "catalog_fullpermission" , "photostock_fullpermission", IdentityServerConstants.LocalApi.ScopeName}
+                    AllowedScopes = { "catalog_fullpermission",
+                        "photostock_fullpermission",
+                        IdentityServerConstants.LocalApi.ScopeName}
                 },
 
-                // interactive client using code flow + pkce
+
                 new Client
                 {
                     ClientId = "Casgem2Client",
-                    ClientName = "Casgem 2 Client Name",
-
                     ClientSecrets = { new Secret("secret".Sha256()) },
+                     ClientName = "Casgem2 Client Name",
+
                     AllowedGrantTypes = GrantTypes.ResourceOwnerPassword,
                     AllowOfflineAccess = true,
-                    AllowedScopes = { "catalog_fullpermission", "basket_fullpermission", "photostock_fullpermission",
-                        "discount_fullpermission",
-                     IdentityServerConstants.LocalApi.ScopeName,
-                        IdentityServerConstants.StandardScopes.Email,
-                             IdentityServerConstants.StandardScopes.OpenId,
-                                  IdentityServerConstants.StandardScopes.Profile},
+                    AllowedScopes = { "catalog_fullpermission", "basket_fullpermission", "photostock_fullpermission", "discount_fullpermission","order_fullpermission",
+                    IdentityServerConstants.LocalApi.ScopeName,
+                    IdentityServerConstants.StandardScopes.Email,
+                    IdentityServerConstants.StandardScopes.OpenId,
+                    IdentityServerConstants.StandardScopes.Profile},
                     AccessTokenLifetime=3600
-
                 },
             };
     }

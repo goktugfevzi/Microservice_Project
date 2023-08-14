@@ -13,7 +13,6 @@ namespace MicroService.Services.Order.Core.Application.Features.CQRS.Commands
 {
     public class CreateOrderDetailCommandRequest : IRequest
     {
-        public string ProductID { get; set; }
         public string ProductName { get; set; }
         public string ProductPrice { get; set; }
         public int ProductAmount { get; set; }

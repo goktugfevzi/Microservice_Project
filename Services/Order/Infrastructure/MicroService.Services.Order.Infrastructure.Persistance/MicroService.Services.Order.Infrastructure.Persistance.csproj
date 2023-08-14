@@ -20,6 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Core\MicroService.Services.Order.Core.Application\MicroService.Services.Order.Core.Application.csproj" />
     <ProjectReference Include="..\..\Core\MicroService.Services.Order.Core.Domain\MicroService.Services.Order.Core.Domain.csproj" />
   </ItemGroup>
 

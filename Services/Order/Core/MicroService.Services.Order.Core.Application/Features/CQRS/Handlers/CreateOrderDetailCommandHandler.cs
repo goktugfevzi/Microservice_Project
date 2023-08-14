@@ -25,7 +25,6 @@ namespace MicroService.Services.Order.Core.Application.Features.CQRS.Handlers
         {
             var value = new OrderDetail
             {
-                ProductID = request.ProductID,
                 ProductName = request.ProductName,
                 ProductPrice = request.ProductPrice,
                 ProductAmount = request.ProductAmount,

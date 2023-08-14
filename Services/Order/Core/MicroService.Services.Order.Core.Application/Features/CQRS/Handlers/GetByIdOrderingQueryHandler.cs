@@ -3,14 +3,14 @@ using MediatR;
 using MicroService.Services.Order.Core.Application.Features.CQRS.Queries;
 using MicroService.Services.Order.Core.Application.Interfaces;
 using MicroService.Services.Order.Core.Domain.Entities;
-using MicroService.Services.Ordering.Core.Application.Dtos.OrderDtos;
+using MicroService.Services.Order.Core.Application.Dtos.OrderDtos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Casgem.MicroService.Services.Orde.Core.Application.Features.CQRS.Handlers
+namespace MicroService.Services.Orde.Core.Application.Features.CQRS.Handlers
 {
     public class GetByIdOrderingQueryHandler : IRequestHandler<GetByIdOrderingQueryRequest, ResultOrderingDto>
     {

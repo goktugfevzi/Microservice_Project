@@ -1,5 +1,4 @@
-﻿
-using AutoMapper;
+﻿using AutoMapper;
 using MediatR;
 using MicroService.Services.Order.Core.Application.Features.CQRS.Queries;
 using MicroService.Services.Order.Core.Application.Interfaces;
@@ -11,11 +10,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Casgem.MicroService.Services.Orde.Core.Application.Features.CQRS.Handlers
+namespace MicroService.Services.Orde.Core.Application.Features.CQRS.Handlers
 {
     public class GetAllAdressQueryHandler : IRequestHandler<GetAllAddressQueryRequest, List<ResultAddressDto>>
     {
         private readonly IRepository<Address> _repository;
+        private readonly IMapper _mapper;
 
         public GetAllAdressQueryHandler(IRepository<Address> repository, IMapper mapper)
         {
@@ -23,7 +23,6 @@ namespace Casgem.MicroService.Services.Orde.Core.Application.Features.CQRS.Handl
             _mapper = mapper;
         }
 
-        private readonly IMapper _mapper;
         public async Task<List<ResultAddressDto>> Handle(GetAllAddressQueryRequest request, CancellationToken cancellationToken)
         {
             var values = await _repository.GetAllAsync();

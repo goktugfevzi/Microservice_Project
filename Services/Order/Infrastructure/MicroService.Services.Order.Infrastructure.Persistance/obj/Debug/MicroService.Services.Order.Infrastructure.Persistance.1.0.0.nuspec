@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>MicroService.Services.Order.Infrastructure.Persistance</id>
+    <version>1.0.0</version>
+    <authors>MicroService.Services.Order.Infrastructure.Persistance</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="MicroService.Services.Order.Core.Application" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="MicroService.Services.Order.Core.Domain" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore" version="6.0.21" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="6.0.21" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\esesl\source\repos\MicroService\Services\Order\Infrastructure\MicroService.Services.Order.Infrastructure.Persistance\bin\Debug\net6.0\MicroService.Services.Order.Infrastructure.Persistance.runtimeconfig.json" target="lib\net6.0\MicroService.Services.Order.Infrastructure.Persistance.runtimeconfig.json" />
+    <file src="C:\Users\esesl\source\repos\MicroService\Services\Order\Infrastructure\MicroService.Services.Order.Infrastructure.Persistance\bin\Debug\net6.0\MicroService.Services.Order.Infrastructure.Persistance.dll" target="lib\net6.0\MicroService.Services.Order.Infrastructure.Persistance.dll" />
+  </files>
+</package>

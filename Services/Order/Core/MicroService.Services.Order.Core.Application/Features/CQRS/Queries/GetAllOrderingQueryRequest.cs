@@ -1,5 +1,5 @@
 ﻿using MediatR;
-using MicroService.Services.Ordering.Core.Application.Dtos.OrderDtos;
+using MicroService.Services.Order.Core.Application.Dtos.OrderDtos;
 using System;
 using System.Collections.Generic;
 using System.Linq;

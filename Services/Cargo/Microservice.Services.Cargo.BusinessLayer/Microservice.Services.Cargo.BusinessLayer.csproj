@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Microservice.Services.Cargo.DataAccessLayer\Microservice.Services.Cargo.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\Microservice.Services.Cargo.EntityLayer\Microservice.Services.Cargo.EntityLayer.csproj" />
+  </ItemGroup>
+
+</Project>

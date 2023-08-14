@@ -14,9 +14,9 @@ namespace MicroService.Services.Order.Core.Application.Features.CQRS.Handlers
 {
     public class RemoveOrderingCommandHandler : IRequestHandler<RemoveOrderingCommandRequest>
     {
-        private readonly IRepository<Ordering1> _repository;
+        private readonly IRepository<Ordering> _repository;
 
-        public RemoveOrderingCommandHandler(IRepository<Ordering1> repository)
+        public RemoveOrderingCommandHandler(IRepository<Ordering> repository)
         {
             _repository = repository;
         }

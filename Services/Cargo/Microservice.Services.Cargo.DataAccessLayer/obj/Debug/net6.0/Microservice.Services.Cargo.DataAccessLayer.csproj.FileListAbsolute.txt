@@ -1,0 +1,17 @@
+C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Cargo.DataAccessLayer\bin\Debug\net6.0\Microservice.Services.Cargo.DataAccessLayer.deps.json
+C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Cargo.DataAccessLayer\bin\Debug\net6.0\Microservice.Services.Cargo.DataAccessLayer.runtimeconfig.json
+C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Cargo.DataAccessLayer\bin\Debug\net6.0\Microservice.Services.Cargo.DataAccessLayer.dll
+C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Cargo.DataAccessLayer\bin\Debug\net6.0\Microservice.Services.Cargo.DataAccessLayer.pdb
+C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Cargo.DataAccessLayer\bin\Debug\net6.0\Microservice.Services.Cargo.EntityLayer.dll
+C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Cargo.DataAccessLayer\bin\Debug\net6.0\Microservice.Services.Cargo.EntityLayer.pdb
+C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Cargo.DataAccessLayer\obj\Debug\net6.0\Microservice.Services.Cargo.DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Cargo.DataAccessLayer\obj\Debug\net6.0\Microservice.Services.Cargo.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Cargo.DataAccessLayer\obj\Debug\net6.0\Microservice.Services.Cargo.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Cargo.DataAccessLayer\obj\Debug\net6.0\Microservice.Services.Cargo.DataAccessLayer.AssemblyInfo.cs
+C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Cargo.DataAccessLayer\obj\Debug\net6.0\Microservice.Services.Cargo.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Cargo.DataAccessLayer\obj\Debug\net6.0\Microservice.Services.Cargo.DataAccessLayer.csproj.CopyComplete
+C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Cargo.DataAccessLayer\obj\Debug\net6.0\Microservice.Services.Cargo.DataAccessLayer.dll
+C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Cargo.DataAccessLayer\obj\Debug\net6.0\refint\Microservice.Services.Cargo.DataAccessLayer.dll
+C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Cargo.DataAccessLayer\obj\Debug\net6.0\Microservice.Services.Cargo.DataAccessLayer.pdb
+C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Cargo.DataAccessLayer\obj\Debug\net6.0\Microservice.Services.Cargo.DataAccessLayer.genruntimeconfig.cache
+C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Cargo.DataAccessLayer\obj\Debug\net6.0\ref\Microservice.Services.Cargo.DataAccessLayer.dll
