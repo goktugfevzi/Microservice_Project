@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Microservice.Services.Cargo.BusinessLayer.Abstract
 {
-    public interface ICargoStateService : IGenericService<CargoState>
+    public interface ICargoDetailService : IGenericService<CargoDetail>
     {
 
     }

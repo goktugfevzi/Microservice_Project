@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "TJjq028S6qc8bz5FfkjWHBBliBppY13nlApZV1X9sbY=",
+  "Hash": "x1P0JXN2qEshddYoZedOYuxDV0WxbPVKYcc/hS9GJ8U=",
   "Source": "Microservice.Services.Cargo.WebApi",
   "BasePath": "_content/Microservice.Services.Cargo.WebApi",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\esesl\\source\\repos\\MicroService\\Services\\Payment\\MicroService.Services.Payment.WebApi\\MicroService.Services.Payment.WebApi.csproj",
+      "Version": 2,
+      "Source": "MicroService.Services.Payment.WebApi",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [],
   "Assets": []
 }

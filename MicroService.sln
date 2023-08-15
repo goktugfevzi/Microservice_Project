@@ -59,13 +59,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroService.Services.Order
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroService.Services.Order.Core.Domain", "Services\Order\Core\MicroService.Services.Order.Core.Domain\MicroService.Services.Order.Core.Domain.csproj", "{2A3EB8B6-36E7-4CDB-AA55-EC0C9E6C0441}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.Services.Cargo.BusinessLayer", "Services\Cargo\Microservice.Services.Cargo.BusinessLayer\Microservice.Services.Cargo.BusinessLayer.csproj", "{91D86C45-947D-40BD-8C13-F240C339B77C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservice.Services.Cargo.BusinessLayer", "Services\Cargo\Microservice.Services.Cargo.BusinessLayer\Microservice.Services.Cargo.BusinessLayer.csproj", "{91D86C45-947D-40BD-8C13-F240C339B77C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.Services.Cargo.EntityLayer", "Services\Cargo\Microservice.Services.Cargo.EntityLayer\Microservice.Services.Cargo.EntityLayer.csproj", "{F4B54F23-851C-4846-884B-79C44C76911F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservice.Services.Cargo.EntityLayer", "Services\Cargo\Microservice.Services.Cargo.EntityLayer\Microservice.Services.Cargo.EntityLayer.csproj", "{F4B54F23-851C-4846-884B-79C44C76911F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.Services.Cargo.DataAccessLayer", "Services\Cargo\Microservice.Services.Cargo.DataAccessLayer\Microservice.Services.Cargo.DataAccessLayer.csproj", "{6A9E05E4-FA62-40C9-9B2D-5B1C9E52621E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservice.Services.Cargo.DataAccessLayer", "Services\Cargo\Microservice.Services.Cargo.DataAccessLayer\Microservice.Services.Cargo.DataAccessLayer.csproj", "{6A9E05E4-FA62-40C9-9B2D-5B1C9E52621E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.Services.Cargo.WebApi", "Services\Cargo\Microservice.Services.Cargo.WebApi\Microservice.Services.Cargo.WebApi.csproj", "{AA79E12F-434C-42CD-8389-F6F46DEEB4FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservice.Services.Cargo.WebApi", "Services\Cargo\Microservice.Services.Cargo.WebApi\Microservice.Services.Cargo.WebApi.csproj", "{AA79E12F-434C-42CD-8389-F6F46DEEB4FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroService.Services.Payment.WebApi", "Services\Payment\MicroService.Services.Payment.WebApi\MicroService.Services.Payment.WebApi.csproj", "{3E20855F-6555-49B9-85BC-33EF04DFD440}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroService.Gateway", "Gateways\MicroService.Gateway\MicroService.Gateway.csproj", "{7F414D44-9188-48C6-ADF3-2B6FE08A0447}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +133,14 @@ Global
 		{AA79E12F-434C-42CD-8389-F6F46DEEB4FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA79E12F-434C-42CD-8389-F6F46DEEB4FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA79E12F-434C-42CD-8389-F6F46DEEB4FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E20855F-6555-49B9-85BC-33EF04DFD440}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E20855F-6555-49B9-85BC-33EF04DFD440}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E20855F-6555-49B9-85BC-33EF04DFD440}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E20855F-6555-49B9-85BC-33EF04DFD440}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F414D44-9188-48C6-ADF3-2B6FE08A0447}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F414D44-9188-48C6-ADF3-2B6FE08A0447}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F414D44-9188-48C6-ADF3-2B6FE08A0447}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F414D44-9188-48C6-ADF3-2B6FE08A0447}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -158,6 +170,8 @@ Global
 		{F4B54F23-851C-4846-884B-79C44C76911F} = {C62C5442-3F5B-4829-A73C-F169EE85CC9D}
 		{6A9E05E4-FA62-40C9-9B2D-5B1C9E52621E} = {C62C5442-3F5B-4829-A73C-F169EE85CC9D}
 		{AA79E12F-434C-42CD-8389-F6F46DEEB4FB} = {C62C5442-3F5B-4829-A73C-F169EE85CC9D}
+		{3E20855F-6555-49B9-85BC-33EF04DFD440} = {326D587A-8405-41BF-9F4A-93267311D5F7}
+		{7F414D44-9188-48C6-ADF3-2B6FE08A0447} = {56D6D57A-CA19-49FC-BBEE-2D0D5AA88207}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B67878A3-785D-4B9E-86E6-596827E1363C}

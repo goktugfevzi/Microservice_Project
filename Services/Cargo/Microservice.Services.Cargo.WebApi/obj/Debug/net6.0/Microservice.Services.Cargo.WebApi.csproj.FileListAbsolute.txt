@@ -70,3 +70,11 @@ C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Ca
 C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Cargo.WebApi\obj\Debug\net6.0\Microservice.Services.Cargo.WebApi.pdb
 C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Cargo.WebApi\obj\Debug\net6.0\Microservice.Services.Cargo.WebApi.genruntimeconfig.cache
 C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Cargo.WebApi\obj\Debug\net6.0\ref\Microservice.Services.Cargo.WebApi.dll
+C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Cargo.WebApi\bin\Debug\net6.0\Microservice.Services.Cargo.BusinessLayer.dll
+C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Cargo.WebApi\bin\Debug\net6.0\Microservice.Services.Cargo.BusinessLayer.pdb
+C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Cargo.WebApi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Cargo.WebApi\bin\Debug\net6.0\MicroService.Services.Payment.WebApi.deps.json
+C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Cargo.WebApi\bin\Debug\net6.0\MicroService.Services.Payment.WebApi.runtimeconfig.json
+C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Cargo.WebApi\bin\Debug\net6.0\MicroService.Services.Payment.WebApi.exe
+C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Cargo.WebApi\bin\Debug\net6.0\MicroService.Services.Payment.WebApi.dll
+C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Cargo.WebApi\bin\Debug\net6.0\MicroService.Services.Payment.WebApi.pdb

@@ -14,10 +14,9 @@ namespace Microservice.Services.Cargo.DataAccessLayer.Repository
 
         public GenericRepository(CargoContext context)
         {
-            Context = context;
+            _cargoContext = context;
         }
 
-        public CargoContext Context { get; }
 
         public void Delete(T entity)
         {

@@ -10,3 +10,8 @@ C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Ca
 C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Cargo.BusinessLayer\obj\Debug\net6.0\refint\Microservice.Services.Cargo.BusinessLayer.dll
 C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Cargo.BusinessLayer\obj\Debug\net6.0\Microservice.Services.Cargo.BusinessLayer.pdb
 C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Cargo.BusinessLayer\obj\Debug\net6.0\ref\Microservice.Services.Cargo.BusinessLayer.dll
+C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Cargo.BusinessLayer\bin\Debug\net6.0\Microservice.Services.Cargo.DataAccessLayer.dll
+C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Cargo.BusinessLayer\bin\Debug\net6.0\Microservice.Services.Cargo.EntityLayer.dll
+C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Cargo.BusinessLayer\bin\Debug\net6.0\Microservice.Services.Cargo.DataAccessLayer.pdb
+C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Cargo.BusinessLayer\bin\Debug\net6.0\Microservice.Services.Cargo.EntityLayer.pdb
+C:\Users\esesl\source\repos\MicroService\Services\Cargo\Microservice.Services.Cargo.BusinessLayer\obj\Debug\net6.0\Microservice.Services.Cargo.BusinessLayer.csproj.CopyComplete

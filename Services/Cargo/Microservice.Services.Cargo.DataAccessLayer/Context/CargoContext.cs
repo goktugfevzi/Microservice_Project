@@ -12,7 +12,7 @@ namespace Microservice.Services.Cargo.DataAccessLayer.Context
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=localhost,1433;Database=OrderDb;User=sa;Password=123456Aa*");
+            optionsBuilder.UseSqlServer("Server=localhost,1433;Database=CargoDb;User=sa;Password=123456Aa*");
         }
 
 

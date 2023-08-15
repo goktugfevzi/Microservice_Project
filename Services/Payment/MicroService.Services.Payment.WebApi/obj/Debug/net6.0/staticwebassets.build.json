@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "2LuWfs0U0wL9wtNY2HcMb1Gl2EnqlTHYPRhM0CBNRYY=",
+  "Source": "MicroService.Services.Payment.WebApi",
+  "BasePath": "_content/MicroService.Services.Payment.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
